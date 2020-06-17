@@ -1,4 +1,4 @@
-### Rails, Nginx with Docker-compose
+### Rails, Nginx with Docker Compose
 
 This application contain basic CRUD operation in rails entire application
 will be containerized with docker-compose. application contain 3 images
