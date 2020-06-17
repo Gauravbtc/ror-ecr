@@ -1,25 +1,38 @@
-# README
+### Rails, Nginx with Docker-compose
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application contain basic CRUD operation in rails entire application
+will be containerized with docker-compose. application contain 3 images
+1. Rails server running on PUMA
+2. Nginx
+3. Databse
 
-Things you may want to cover:
 
-* Ruby version
+### Installation
 
-* System dependencies
+STEP 1 : insatll docker on your OS
+https://docs.docker.com/engine/install/
 
-* Configuration
+STEP 2 : insatll docker-compose on your OS
+https://docs.docker.com/compose/install/
 
-* Database creation
+STEP 3 : clone this project in your project directory
 
-* Database initialization
+STEP 4 : clone this project in your project directory
 
-* How to run the test suite
+STEP 5: Build this project
+```
+docker-compose build
+```
+STEP 6: Run application
+```
+docker-compose up
+```
+STEP 7: Run application
 
-* Services (job queues, cache servers, search engines, etc.)
+check http://localhost in your broswer
 
-* Deployment instructions
 
-* ...
-# ror-ecr
+
+
+
+
