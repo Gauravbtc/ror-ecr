@@ -10,10 +10,12 @@ will be containerized with docker-compose. application contain 3 images
 ### Installation
 
 STEP 1 : insatll docker on your OS:
-https://docs.docker.com/engine/install/
+
+* https://docs.docker.com/engine/install/
 
 STEP 2 : insatll docker-compose on your OS:
-https://docs.docker.com/compose/install/
+
+* https://docs.docker.com/compose/install/
 
 STEP 3 : clone this project in your project directory
 
@@ -38,7 +40,7 @@ docker-compose run app rails db:create
 docker-compose run app rails db:migrate
 ```
 
-##### for any rails model or controller generation
+###### For rails model or controller generation
 ```
 docker-compose run app rails g #{model_name}
 docker-compose run app rails g controller #{controller_name}
