@@ -4,7 +4,7 @@ This application contain basic CRUD operation in rails entire application
 will be containerized with docker-compose. application contain 3 images
 1. Rails server running on PUMA
 2. Nginx
-3. Databse
+3. Postgesql Database
 
 
 ### Installation
