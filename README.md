@@ -27,9 +27,9 @@ STEP 5: Run application
 ```
 docker-compose up
 ```
-STEP 6: Run application
+STEP 6: check application
 
-check http://localhost in your broswer
+check this url: http://localhost in your broswer
 
 ###### For Databse creation
 ```
@@ -45,13 +45,3 @@ docker-compose run app rails db:migrate
 docker-compose run app rails g #{model_name}
 docker-compose run app rails g controller #{controller_name}
 ```
-
-
-
-
-
-
-
-
-
-
