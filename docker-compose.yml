@@ -4,8 +4,9 @@ services:
     image: postgres
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: password
   app:
-    # image: 601010281808.dkr.ecr.us-east-1.amazonaws.com/ror-ecs-app
     build:
       # 2.1.Specify the root path
       context: .
@@ -17,8 +18,8 @@ services:
       - db
     volumes:
       - .:/var/www/ror-ecs
+      - gem_cache:/gems
   web:
-    # image: 601010281808.dkr.ecr.us-east-1.amazonaws.com/ror-ecs-web
     build:
       context: .
       dockerfile: ./docker/web/DockerFile
@@ -26,3 +27,5 @@ services:
       - 'app'
     ports:
       - '80:80'
+volumes:
+  gem_cache: # New
