@@ -9,11 +9,11 @@ will be containerized with docker-compose. application contain 3 images
 
 ### Installation
 
-STEP 1 : insatll docker on your OS:
+STEP 1 : install docker on your OS:
 
 * https://docs.docker.com/engine/install/
 
-STEP 2 : insatll docker-compose on your OS:
+STEP 2 : install docker-compose on your OS:
 
 * https://docs.docker.com/compose/install/
 
